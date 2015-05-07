@@ -1,0 +1,34 @@
+$(document).ready(function(){
+
+   $("#login").click(function(){
+      $("#page0").css('top','0px');
+    });
+    $("#page0-2").click(function(){
+    $("#page0").css('top','-1000px');
+    });
+
+   $("#name").bind('mouseenter',function(){
+			$("#name").addClass('hoverinput');
+	});
+   $("#name").bind('mouseout',function(){
+			$("#name").removeClass('hoverinput');
+	});
+   $("#email").bind('mouseenter',function(){
+			$("#email").addClass('hoverinput');
+	});
+   $("#email").bind('mouseout',function(){
+			$("#email").removeClass('hoverinput');
+	});
+    $("#website").bind('mouseenter',function(){
+			$("#website").addClass('hoverinput');
+	   });
+    $("#website").bind('mouseout',function(){
+			$("#website").removeClass('hoverinput');
+	 });
+    $("#message").bind('mouseenter',function(){
+			$("#message").addClass('hoverinput');
+	  });
+    $("#message").bind('mouseout',function(){
+			$("#message").removeClass('hoverinput');
+	});
+});

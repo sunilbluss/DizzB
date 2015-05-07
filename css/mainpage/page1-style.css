@@ -1,0 +1,32 @@
+#page1{
+	height: 100%;
+	background-image: url("../../img/mainpage/page1.jpg");
+	overflow: hidden;
+}
+
+#search {
+	width:50%;
+	height:50px;
+	position:relative;
+	bottom: 60px;
+	left:25%;
+	background-color:rgba(0,255,0,0.5);
+	z-index: 2;
+}
+
+.search{
+	height: 100%;
+	line-height: 100%;
+	width: 100%;
+	padding: 0px;
+	border:none;
+	box-sizing: border-box;
+	background-color: transparent;
+	line-height: 100%;
+	bottom: 10px;
+}
+
+
+#navigation {
+	z-index: 3;
+}

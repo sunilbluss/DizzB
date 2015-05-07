@@ -1,0 +1,67 @@
+#page0{
+	position: fixed;
+	top: -1000px;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0,0.85);
+	z-index: 20;
+}
+#page0-1{
+  position:relative;
+  top: 70px;
+  left: 350px;
+}
+#page0-2{
+  position: absolute;
+  right: 200px;
+  top: 70px;
+  height: 40px;
+  cursor: pointer;
+}
+input,textarea{
+  background-color: rgba(0, 0, 0, 0);
+  border-color: rgba(207, 207, 207, 0.329412);
+  border-radius: 6px;
+  border-style: solid;
+  border-width: 1px;
+  box-shadow: none;
+  box-sizing: border-box;
+  color: rgb(187, 187, 187);
+  cursor: auto;
+  display: inline-block;
+  font-family: Roboto, sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  height: 48px;
+  letter-spacing: normal;
+  line-height: normal;
+  margin-bottom: 5px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  outline-color: rgb(187, 187, 187);
+  outline-style: none;
+  outline-width: 0px;
+  padding-bottom: 16px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 16px;
+  text-align: start;
+  text-indent: 0px;
+  text-shadow: none;
+  text-transform: none;
+  vertical-align: baseline;
+  width: 645px;
+  word-spacing: 0px;
+}
+textarea{
+  height: 250px;
+}
+.hoverinput{
+box-shadow: 0px 1px 15px #c229c2;
+}
+#submit:hover{
+	background-color: rgba(25,0,0,.33);
+}

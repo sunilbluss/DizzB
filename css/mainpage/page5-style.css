@@ -1,0 +1,88 @@
+#page5{
+	height: 60%;
+	background-image: url("../../img/mainpage/page5.jpg");
+	overflow: hidden;
+	position: relative;
+}
+
+#footer {
+	display: flex;
+	width: 100%;
+	background-color: rgba(138, 43, 226,0.4);
+	height: 94%;
+}
+
+#footer div {
+	display: inline-block;
+	 box-sizing:border-box; 
+	 margin: none;
+}
+#page5-1{
+	width:40%;
+}
+
+#page5-2{
+width:20%;
+}
+
+#page5-3{
+	 width:20%;
+}
+
+#page5-4{
+	width:20%;
+}
+
+#footer div ul{
+	list-style: none;
+	height: auto;
+	margin:0px;
+}
+
+#page5-2 ul li,#page5-3 ul li{
+	height: 45px;
+	padding: 10%;
+	border-radius: 2px;
+	margin: 4px;
+	background-color: rgba(0,0,0,0.3);
+}
+
+#page5-4 ul li{
+	height: 45px;
+	padding: 5%;
+	border-radius: 2px;
+	margin: 4px;
+	background-color: rgba(0,0,0,0.3);
+}
+
+
+#page5-2 ul li:hover,#page5-3 ul li:hover,#page5-4 ul li:hover{
+	
+	background-color: rgba(0,0,0,0.7);
+}
+
+#page5-2 >ul{
+	height: 100%;
+}
+
+#page5-1 p, #page5-1 h2 {
+  text-align: center;
+  height: auto;
+  color: green;
+}
+
+#page5-1 p {
+  text-align: justify;
+  height: auto;
+  margin: 4%;
+  color: black;
+}
+
+#page5-5 {
+	text-align: center;
+	color: white;
+	background-color: rgba(132, 0, 255, 0.6);
+	margin: 0px;
+	height: 6%;
+	width: 100%;
+}
